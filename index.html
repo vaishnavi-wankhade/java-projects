@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="label"><i class="fas fa-house-user"></i></i>User Login</h1>
+        <form class="login-form" method="POST" name="form"  onsubmit="return validation()">
+            <div class="font"><i class="fa fa-car"></i>Username</div>
+            <input type="text"  id="text">
+            <span id="smsg"></span>
+            <div id="email-error">Please fill up your Username</div>
+
+            <div class="font font2"><i class="fa-li fa fa-check-square"></i>Password</div>
+            <input type="password" id="password">
+            <div id="pass-error">Please fill up your Password</div>
+
+
+            <div><button  class="button" type="submit">Login</button></div>
+        </form>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <i class="fas fa-biking"></i><i class="fas fa-house-user"></i>
+        <i class="fab fa-accessible-icon"></i>
+
+        
+
+
+    </div>
+
+    <script src="valid.js"></script>
+    
+</body>
+</html>
